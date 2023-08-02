@@ -1,11 +1,11 @@
 {
-  "name": "stackblitz-starters-n5uchd",
+  "name": "oojs-chapter1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "vite",
+    "start": "storybook dev -p 6006",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
