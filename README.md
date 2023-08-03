@@ -1,8 +1,8 @@
-# React + Vite
+# [Object Oriented Javascript](https://www.packtpub.com/product/object-oriented-javascript-third-edition/9781785880568) Chapter 1 stories
+## This story is to get a training environment for doing the exercises in the book
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TLDR 
 
-Currently, two official plugins are available:
+[![Open in Codeflow](https://developer.stackblitz.com/img/open_in_codeflow.svg)](https:///pr.new/rhildred/OOJSChapter1)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a storybook with a quick win of getting the w3.css coming soon template up on [Cloudflare Pages](https://pages.cloudflare.com/).
