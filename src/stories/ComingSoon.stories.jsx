@@ -5,7 +5,7 @@ import 'diy-pwa/style.css';
 
 export default {
   component: ComingSoon,
-  title: 'components/ComingSoon',
+  title: 'components/1.1 Coming Soon',
 };
 
 export const en = {

@@ -2,9 +2,40 @@
 
 import { Canvas, Meta } from '@storybook/blocks';
 
-<Meta title="components/Cloudflare" />
+<Meta title="components/1.3 Cloudflare" />
 
 # Publishing to Cloudflare
 
-sjkdfdjkshfj dfsdfasdf
+## Tell the internet that your site is coming soon
 
+You will publish from a git repository on your own account. These instructions assume that you already have signed up for a free github and cloudflare account.
+
+1. first you need to fork a new repository
+![fork new repo](storyImages/fork.PNG )
+
+2. You can optionally view the new repository on github
+![view on github](public/storyImages/viewOnGithub.PNG)
+
+3. Go to cloudflare and select
+![workers and pages](storyImages/workersAndPages.PNG)
+
+4. Go on the pages tab of create applications and click on the "connect to git" button
+![connect to git](storyImages/createApplication.PNG)
+
+5. Select the github repository to deploy
+![select repository](storyImages/deploy.PNG)
+
+6. Set the build commands
+![build commands](storyImages/saveAndDeploy.PNG)
+
+7. continue to view the project in your own account
+![continue to github](storyImages/continue.PNG)
+
+8. Visit your new site
+![visit new site](storyImages/visit.PNG)
+
+### Voila!
+
+![Coming Soon](storyImages/pages.dev.PNG)
+
+At this point you should be looking at your new site, built from the coming soon component. Let's see if we can make something more interesting before the time is up.
