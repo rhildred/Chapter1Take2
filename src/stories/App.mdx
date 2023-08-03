@@ -1,0 +1,34 @@
+{/* App.mdx */}
+
+import { Canvas, Meta } from '@storybook/blocks';
+
+import { StoryFooter } from 'diy-pwa/components';
+
+import * as AppStories from './App.stories.jsx';
+
+<Meta of={AppStories} />
+
+# App.jsx
+## the App.jsx file ties our component in to a full page application
+
+We publish pages made from components that are tested in isolation from each other. In this case we are including the ComingSoon component in the `src/App.jsx` starting file that was created when we started our project. Replace the contents of `src/app.jsx` with:
+
+```javascript
+import { en } from './stories/ComingSoon.stories.jsx';
+
+function App() {
+  return (
+    <>
+      <ComingSoon {...en.args} />
+    </>
+  );
+}
+
+export default App;
+```
+
+We are importing our en story and supplying it to our ComingSoon component.
+
+<Canvas of={AppStories.en} />
+
+<StoryFooter title="Cloudflare" tagline="Publish our application to cloudflare" label="Next" href="/?path=/docs/components-cloudflare--docs"/>

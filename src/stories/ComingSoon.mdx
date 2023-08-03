@@ -2,12 +2,38 @@
 
 import { Canvas, Meta } from '@storybook/blocks';
 
+import { StoryFooter } from 'diy-pwa/components';
+
 import * as ComingSoonStories from './ComingSoon.stories';
 
 <Meta of={ComingSoonStories} />
 
 # Coming Soon
 
-sjkdfdjkshfj dfsdfasdf
+## ... is based very much on w3.css templates
 
-<Canvas of={ComingSoonStories.en} className="test-class"/>
+I wanted to give you a quick win, but I also thought it would be fun to set a goal for finishing [the book](https://www.packtpub.com/product/object-oriented-javascript-third-edition/9781785880568). You can write Coming Soon stories in other languages by editing `src/stories/ComingSoon.stories.jsx`. Have a look at the story for french:
+
+```javascript
+export const fr = {
+  args: {
+    title: 'Bientôt disponible',
+    tagline: (
+      <h2>
+        {' '}
+        ... dans <DaysLeft readyDate="2023=09-05" /> jours
+      </h2>
+    ),
+    backgroundImage: '/img/forestbridge.jpg',
+    logo: 'Logo',
+    footer: 'Alimenté par',
+  },
+};
+
+```
+
+<Canvas of={ComingSoonStories.fr} />
+
+Of course you can also change your args for your own use case.
+
+<StoryFooter href="/?path=/docs/components-app--docs" title="Add to App" tagline="add Coming Soon to App.jsx component" label="next" />
