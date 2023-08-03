@@ -1,4 +1,5 @@
 /** @type { import('@storybook/react-vite').StorybookConfig } */
+import "w3-css/w3.css";
 const config = {
     stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
     addons: [
