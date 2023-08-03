@@ -4,11 +4,7 @@ import 'diy-pwa/style.css';
 import { en } from './stories/ComingSoon.stories.jsx';
 
 function App() {
-  return (
-    <>
-      <ComingSoon {...en.args} />
-    </>
-  );
+  return <ComingSoon {...en.args} />
 }
 
 export default App;
